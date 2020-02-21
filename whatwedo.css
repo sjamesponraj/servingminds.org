@@ -1,0 +1,62 @@
+.navbar-fixed-top {
+    min-height: 125px;
+}
+
+.custom-bullet li {
+    display: block;
+}
+
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #F39721;
+}
+
+.account-details {
+	
+	font-size: 20px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 12px;
+  /* font-weight: bold; */
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 270%;
+  padding: 15px;
+  width: auto;
+  
+}
+
+.navbar { margin-bottom:0px !important; 
+	background-color: #ffffff;}
+.carousel-caption { margin-top:0px !important }
+
+body {
+	padding-top : 70px;
+}
+
+.footercontainer {
+	background-color: black;
+}
+
+.copyrights {
+	color:white;
+}

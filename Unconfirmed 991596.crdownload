@@ -1,0 +1,37 @@
+	$(document).ready(function(){
+	$("#send").click(function(){
+	
+	var name = $("#userName").val();
+	var email = $("#userEmail").val();
+	var subject = $("#subject").val();
+	var message = $("#message").val();
+	// Returns successful data submission message when the entered information is stored in database.
+	var dataString = 'userName='+ name + '&userEmail='+ email + '&subject='+ subject + '&message='+ message;
+	if(name == '' || email == '' || subject == '' || message == '') {
+		alert("Please Fill All Fields");
+	}
+	else {
+	alert("Inside Ajax");
+	
+	// AJAX Code To Submit Form.
+	var request = $.ajax({
+		type: "POST",
+		url: "FeedbackToEmail.php",
+		data: dataString,
+		dataType: "html",
+		cache: false,
+		async: false
+	});
+	
+	request.done(function(msg) {
+	
+		alert("Success");		
+		$("#result").html(msg);
+	}
+	
+	request.fail(function(jqXHR, textStatus) {
+			alert( "Request failed: " + textStatus );
+	});
+	
+	});
+	

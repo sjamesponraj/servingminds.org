@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FeedBack Form With Email Functionality</title>
+<link href="elements.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<!-- Body Starts Here -->
+<body>
+	<div class="wrapper">
+	
+	<div class="container">
+	
+	<div class="col-lg-12">
+	
+		<div class="row">
+		
+			<div id="form-content">
+			
+			<form method="post" id="feedback-form" autocomplete="off">
+				
+				<div class="form-group">
+					<input type="text" class="form-control" name="userName" id="userName" placeholder="First Name" required />
+				</div>
+				
+				<div class="form-group">
+					<input type="text" class="form-control" name="userEmail" id="userEmail" placeholder="Your Mail" required />
+				</div>
+				
+				<div class="form-group">
+					<label for="message">Feedback</label>
+					<textarea class="form-control" rows="5" name="message" id="message" placeholder="Type your text here..."></textarea>
+				</div>
+				
+				<hr />
+				
+				<div class="form-group">
+					<button class="btn btn-primary">Submit</button>
+				</div>
+				
+			</form>
+            
+            </div>
+            
+            </div>
+		
+	</div>
+	
+</div>
+	
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {	
+	
+	// submit form using $.ajax() method
+	
+	$('#feedback-form').submit(function(e){
+		
+		e.preventDefault(); // Prevent Default Submission
+		
+		$.ajax({
+			url: 'FeedbackToEmail.php',
+			type: 'POST',
+			data: $(this).serialize() // it will serialize the form data
+		})
+		.done(function(data){
+			$('#form-content').fadeOut('slow', function(){
+				$('#form-content').fadeIn('slow').html(data);
+			});
+		})
+		.fail(function(){
+			alert('Ajax Submit Failed ...');	
+		});
+	});	
+});
+</script>
+
+</body>
+<!-- Body Ends Here -->
+</html>

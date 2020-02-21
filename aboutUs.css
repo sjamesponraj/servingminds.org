@@ -1,0 +1,50 @@
+.navbar-fixed-top {
+    min-height: 125px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 12px;
+  /* font-weight: bold; */
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 270%;
+  padding: 15px;
+  width: auto;
+  
+}
+
+.jumbotron {
+  
+  min-height: 20px;
+}
+
+.navbar { margin-bottom:0px !important; 
+	background-color: #ffffff;}
+.carousel-caption { margin-top:0px !important }
+
+body {
+	padding-top : 70px;
+}
+
+.footercontainer {
+	background-color: black;
+}
+
+.copyrights {
+	color:white;
+}
+
+.modal-open {
+    overflow: hidden !important;
+}

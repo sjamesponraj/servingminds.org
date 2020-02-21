@@ -1,0 +1,5 @@
+[19-Jan-2017 07:25:41 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/servingm/public_html/FeedbackToEmail.php on line 25
+[19-Jan-2017 07:35:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/servingm/public_html/FeedbackToEmail.php on line 36
+[14-Jun-2018 05:31:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/servingm/public_html/ajaxsubmit.php on line 2
+[14-Jun-2018 05:31:18 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/servingm/public_html/ajaxsubmit.php on line 2
+[14-Jun-2018 05:31:18 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/servingm/public_html/ajaxsubmit.php on line 3

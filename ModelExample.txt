@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serving Minds</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="aboutUs.css" rel="stylesheet">
+	<link href="hoverEffect.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
+  </head>
+  <body>	
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+			<a class="navbar-brand" href="HomePage.html"><img src="images/TrustLogo.png"></a>
+		</div><br><br>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav nav-pills navbar-right"><br>
+			<li><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span> Home  </a></li>
+			<li><a href="AboutUs.html"><span class="glyphicon glyphicon-education"></span> About Us  </a></li>
+			<li><a href="Gallery.html"><span class="glyphicon glyphicon-picture"></span> Gallery  </a></li>
+			<li><a href="Donate.html"><span class="fa fa-inr" style="font-size:14px"></span> Donate  </a></li>
+			<li><a href="Reports.html"><span class="glyphicon glyphicon-list-alt"></span> Reports  </a></li>
+			<li><a href="ContactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact </a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+	<!-- div class="jumbotron">
+		<div class="container">
+			
+		</div>
+	</div -->
+	<br/><br/>
+	<!-- Banner Image -->
+	<div class="container">		
+		<br/>
+		<p><img width="100%" height="300px" src="images/KidsHands.jpg"></p>				
+	</div>
+	<!-- Banner Image End-->
+	<div class="container">
+	<!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">GALLERY
+                </h1>
+            </div>
+        </div>
+    <!-- /.row -->
+
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid bd-example-row">
+          <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+            <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-9">
+              Level 1: .col-sm-9
+              <div class="row">
+                <div class="col-xs-8 col-sm-6">
+                  Level 2: .col-xs-8 .col-sm-6
+                </div>
+                <div class="col-xs-4 col-sm-6">
+                  Level 2: .col-xs-4 .col-sm-6
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bd-example bd-example-padded-bottom">
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#gridSystemModal">
+    Launch demo modal
+  </button>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </body>
+</html>

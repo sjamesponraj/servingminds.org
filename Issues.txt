@@ -1,0 +1,20 @@
+Click Logo - Home Page
+Reports Glyphicon - http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_glyph_list-alt&stacked=h
+About us Page - Donate Glyphicon Missing
+Gallery  - Donate Glyphicon Missing
+Donate Page  - Donate Glyphicon Missing
+Reports PAGE -  - Donate Glyphicon Missing
+Contact -  - Donate Glyphicon Missing
+Home - Copyright
+Gallery page - Copyright icon missing
+Donate - Copyright icon missing
+Report - Copyright icon missing
+Contact - Copyright icon missing
+
+Donate Page - Account Details
+Donate Page - Quarterly Spelling wrong
+Donate Page - Mention Currency
+SiteMap
+
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://termsofusegenerator.net">terms of use example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(13.1059304,80.20367020000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.1059304,80.20367020000003)});infowindow = new google.maps.InfoWindow({content:'<strong>Serving Minds Charitable Trust</strong><br>72/3/88, 28th St, TNHB Colony, Villivakkam, Chennai, Tamil Nadu<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
